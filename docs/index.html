@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="img/dist/favicon/favicon.ico" rel="shortcut icon">
+    <title>DuckTik</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__wrapper">
+            <button class="hamburger" id="hamburger-toggle">
+                <span class="hamburger__inner"></span>
+                <span class="hamburger__inner"></span>
+                <span class="hamburger__inner"></span>
+            </button>
+            <div class="language">
+                <button class="language__btn">English</button>
+                <div class="language__dropdown">
+                    <div class="language__wrapper">
+                        <ul class="language__list">
+                            <li class="language__item">
+                                <button class="language__elem">English</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Turkish (Turkey)</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Français</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Thailand</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Украї́нська мо́ва</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Bahasa Indonesia</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Русский</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">عَرَبِيّ</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">한국어</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Bahasa Malaysia</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Français</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Bahasa Indonesia</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">English</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Turkish (Turkey)</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End of header -->
+    <!-- Menu -->
+    <div class="menu">
+        <div class="menu__top">
+            <a href="index.html" class="logotype menu__logotype">
+                <img src="img/dist/logotype-sm.svg" alt="DuckTik">
+            </a>
+            <button class="menu__close" id="menu-close" aria-label="Закрыть"></button>
+        </div>
+        <div class="menu__body">
+            <div class="language menu__language">
+                <button class="language__btn">English</button>
+                <div class="language__dropdown language__dropdown--center">
+                    <div class="language__wrapper">
+                        <ul class="language__list">
+                            <li class="language__item">
+                                <button class="language__elem">English</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Turkish (Turkey)</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Français</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Thailand</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Украї́нська мо́ва</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Bahasa Indonesia</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Русский</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">عَرَبِيّ</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">한국어</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Bahasa Malaysia</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Français</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Bahasa Indonesia</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">English</button>
+                            </li>
+                            <li class="language__item">
+                                <button class="language__elem">Turkish (Turkey)</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__item">
+                        <a href="#" class="nav-menu__link">Contacts</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#" class="nav-menu__link">Terms of Service</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#" class="nav-menu__link">Privacy Policy</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="social menu__social">
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <span class="social__icon" style="background-image: url(img/dist/sprite.svg#icon-github);"></span>
+                        <span class="social__text">Github</span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <span class="social__icon" style="background-image: url(img/dist/sprite.svg#icon-youtube);"></span>
+                        <span class="social__text">Youtube</span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <span class="social__icon" style="background-image: url(img/dist/sprite.svg#icon-reddit);"></span>
+                        <span class="social__text">Reddit</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="menu-overlay"></div>
+    <!-- End of menu -->
+    <!-- Main -->
+    <section class="main" id="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <a href="index.html" class="logotype">
+                    <img src="img/dist/logotype.svg" alt="DuckTik">
+                </a>
+                <p class="main__description">A ducky that download TikTok video without watermark.</p>
+                <form action="#" class="c-search main__inner">
+                    <input type="text" class="c-search__input" placeholder="Paste TikTok video link here">
+                    <button class="c-search__btn">
+                        <span>Download</span>
+                        <svg class="c-search__btn--icon">
+                            <use xlink:href="img/dist/sprite.svg#icon-download"></use>
+                        </svg>
+                        <span class="loader loader--sm loader--hidden" style="background-image: url(img/dist/loader.png)"></span>
+                    </button>
+                </form>
+                <div class="download-info main__download-info">
+                    <button class="download-info__btn">How to download?</button>
+                    <div class="download-info__dropdown">
+                        <div class="download-info__wrapper">
+                            <ul class="download-info__list">
+                                <li class="download-info__item">
+                                    <a href="#" class="download-info__link">How to download tiktok video without watermark from iPhone</a>
+                                </li>
+                                <li class="download-info__item">
+                                    <a href="#" class="download-info__link">How to download tiktok video without watermark from iPhone</a>
+                                </li>
+                                <li class="download-info__item">
+                                    <a href="#" class="download-info__link">Does you store downloaded videos or keep a copy of videos?</a>
+                                </li>
+                                <li class="download-info__item">
+                                    <a href="#" class="download-info__link">How to download TikTok videos online from the address bar?</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <picture class="ads">
+                    <img src="#" alt="Ads">
+                </picture>
+            </div>
+        </div>
+    </section>
+    <!-- End of main -->
+    <!-- How to start -->
+    <section class="how-start" id="how-start">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-heading__title section-heading__title--yellow">How to start Tik Tok video download with our service?</h2>
+                <p class="section-heading__description">To save TikTok video using SaveFrom.net, you need to follow three short steps. Have a look at them:</p>
+            </div>
+            <div class="how-start__wrapper">
+                <article class="how-start__item">
+                    <picture class="how-start__img">
+                        <source srcset="img/dist/how-start-01.webp" type="image/webp">
+                        <img src="img/dist/how-start-01.png" alt="dasdsaads">
+                    </picture>
+                    <h3 class="how-start__title">1. Copy the URL</h3>
+                    <p class="how-start__description">Open the Tik Tok page with a video that you want to save, copy its URL and go back to SaveFrom.net.</p>
+                </article>
+                <article class="how-start__item">
+                    <picture class="how-start__img">
+                        <source srcset="img/dist/how-start-02.webp" type="image/webp">
+                        <img src="img/dist/how-start-02.png" alt="dasdsaads">
+                    </picture>
+                    <h3 class="how-start__title">2. Paste the URL onto the input field</h3>
+                    <p class="how-start__description">Paste the URL of the into the input field of the top of the page and click on the right side the button to run the downloading process.</p>
+                </article>
+                <article class="how-start__item">
+                    <picture class="how-start__img">
+                        <source srcset="img/dist/how-start-03.webp" type="image/webp">
+                        <img src="img/dist/how-start-03.png" alt="dasdsaads">
+                    </picture>
+                    <h3 class="how-start__title">3. Click the download button</h3>
+                    <p class="how-start__description">To notice that by default the best quality will be selected but if you would like a specific quality or format, there are several options you can choose from.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- End of how to start -->
+    <!-- Accordion -->
+    <div class="accordion-cart" id="accordion-cart">
+        <div class="container">
+            <div class="accordion-cart__wrapper">
+                <div class="accordion-cart__item">
+                    <button class="accordion-cart__trigger">How to download TikTok videos online from the address bar?</button>
+                    <div class="accordion-cart__content content">
+                        <p>Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.</p>
+                        <ul class="ul-custom">
+                            <li>Open Tik Tok app on your phone/or Web on your browser.</li>
+                            <li>Choose whatever video you want to download.</li>
+                            <li>Click to the Share button at the right bottom.</li>
+                            <li>Click the Copy Link button.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-cart__item">
+                    <button class="accordion-cart__trigger">How to download TikTok videos online from the address bar?</button>
+                    <div class="accordion-cart__content content">
+                        <p>Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.</p>
+                        <ol class="ol-custom">
+                            <li>Open Tik Tok app on your phone/or Web on your browser.</li>
+                            <li>Choose whatever video you want to download.</li>
+                            <li>Click to the Share button at the right bottom.</li>
+                            <li>Click the Copy Link button.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of accordion -->
+    <!-- Video -->
+    <section class="video-instruction section" id="video-instruction">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-heading__title">Video instruction</h2>
+            </div>
+            <div class="video-instruction__wrapper">
+                <div class="video-instruction__picture" style="background-image: url(img/dist/background-video.jpg);"></div>
+                <button class="video-instruction__play" aria-label="Play"></button>
+            </div>
+        </div>
+    </section>
+    <!-- End of video -->
+    <!-- Questions & Answers -->
+    <section class="questions-answers section" id="questions-answers">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-heading__title">Questions & Answers</h2>
+            </div>
+            <div class="accordion-cart">
+                <div class="accordion-cart__wrapper accordion-cart__wrapper--sm">
+                    <div class="accordion-cart__item">
+                        <button class="accordion-cart__trigger">Does you store downloaded videos or keep a copy of videos?</button>
+                        <div class="accordion-cart__content content content--grey">
+                            When you're downloading files, they are usually saved into whatever folder you have set as your default. Your browser normally sets this folder for you. In browser settings, you can change and choose manually the destination folder for your downloaded TikTok videos.
+                        </div>
+                    </div>
+                    <div class="accordion-cart__item">
+                        <button class="accordion-cart__trigger">How do I save tiktok video /download my favorite Tik Tok mp4 videos to my iPhone (IOS)?</button>
+                        <div class="accordion-cart__content content content--grey">
+                            Because of Apple security policy, you can't normally download any videos Mp4 tiktok, music (Mp3), or movies to your iPhone just like you can do it with Android phones. But there are some methods to deal with it, please follow this introduction how to download TikTok video with your iPhone.
+                        </div>
+                    </div>
+                    <div class="accordion-cart__item">
+                        <button class="accordion-cart__trigger">Does you store downloaded videos or keep a copy of videos?</button>
+                        <div class="accordion-cart__content content content--grey">
+                            Because of Apple security policy, you can't normally download any videos Mp4 tiktok, music (Mp3), or movies to your iPhone just like you can do it with Android phones. But there are some methods to deal with it, please follow this introduction how to download TikTok video with your iPhone.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of questions & answers -->
+    <!-- block title -->
+    <section class="block-title section" id="block-title">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-heading__title">Block title</h2>
+            </div>
+            <picture class="ads">
+                <img src="#" alt="Ads">
+            </picture>
+        </div>
+    </section>
+    <!-- End of block title -->
+    <!-- Loader -->
+    <section class="downloads section" id="downloads">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-heading__title">Please, wait..</h2>
+            </div>
+            <div class="loader" style="background-image: url(img/dist/loader.png)"></div>
+            <picture class="ads ads--bottom">
+                <img src="#" alt="Ads">
+            </picture>
+            <div class="downloads__wrapper">
+                <picture class="downloads__img">
+                    <img src="img/dist/tiktok-img.png" alt="Image">
+                </picture>
+                <p class="downloads__description">Short text video description</p>
+                <a href="#" class="downloads__btn btn">
+                    <svg class="btn__icon">
+                        <use xlink:href="img/dist/sprite.svg#icon-download-line"></use>
+                    </svg>
+                    <span class="btn__title">Download video (server #1)</span>
+                </a>
+                <a href="#" class="downloads__btn btn">
+                    <svg class="btn__icon">
+                        <use xlink:href="img/dist/sprite.svg#icon-download-line"></use>
+                    </svg>
+                    <span class="btn__title">Download video (server #2)</span>
+                </a>
+                <a href="#" class="downloads__btn btn btn--gray">
+                    <svg class="btn__icon">
+                        <use xlink:href="img/dist/sprite.svg#icon-undo"></use>
+                    </svg>
+                    <span class="btn__title">Download other video</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Loader -->
+    <!-- Privacy Policy -->
+    <section class="privacy-policy section" id="privacy-policy">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-heading__title">Privacy Policy</h2>
+            </div>
+            <div class="privacy-policy__wrapper">
+                <div class="privacy-policy__block">
+                    <div class="content privacy-policy__content">
+                        <h3>Information we collect</h3>
+
+                        <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
+                        
+                        <p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
+                        
+                        <p>When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</p>
+
+                        <p class="contact">This is our contact address: <a href="mailto:email@address.com">email@address.com</a></p>
+
+                        <h3>How we use your information</h3>
+                        
+                        <p>We use the information we collect in various ways, including to:</p>
+                        
+                        <ul>
+                            <li>Provide, operate, and maintain our webste</li>
+                            <li>Improve, personalize, and expand our webste</li>
+                            <li>Understand and analyze how you use our webste</li>
+                            <li>Develop new products, services, features, and functionality</li>
+                            <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the webste, and for marketing and promotional purposes</li>
+                            <li>Send you emails</li>
+                            <li>Find and prevent fraud</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="privacy-policy__block privacy-policy__block--flex">
+                    <picture class="privacy-policy__img">
+                        <img src="img/dist/tiktok-img.png" alt="TikTok">
+                    </picture>
+                    <div class="privacy-policy__body">
+                        <div class="content privacy-policy__content">
+                            <p>Step 1: Copy video link</p>
+
+                            <ul>
+                                <li>Open TikTok app. Tap the "Share" button.</li>
+                                <li>Tap the "Copy Link" button to copy the video link.</li>
+                            </ul>
+                            
+                            <p>Step 2: Search the video</p>
+                            
+                            <ul>
+                                <li>Go to SaveTT.cc with browser Safari on your iPhone/iPad.</li>
+                                <li>Paste the video link into the search box: right-click on the input box and tap the "Paste" button on the drop-down menu.</li>
+                                <li>Tap the "Search" button.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="privacy-policy__block privacy-policy__block--flex">
+                    <div class="privacy-policy__body">
+                        <div class="content privacy-policy__content">
+                            <p>Step 1: Copy video link</p>
+
+                            <ul>
+                                <li>Open TikTok app. Tap the "Share" button.</li>
+                                <li>Tap the "Copy Link" button to copy the video link.</li>
+                            </ul>
+                            
+                            <p>Step 2: Search the video</p>
+                            
+                            <ul>
+                                <li>Go to SaveTT.cc with browser Safari on your iPhone/iPad.</li>
+                                <li>Paste the video link into the search box: right-click on the input box and tap the "Paste" button on the drop-down menu.</li>
+                                <li>Tap the "Search" button.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <picture class="privacy-policy__img">
+                        <img src="img/dist/tiktok-img.png" alt="TikTok">
+                    </picture>
+                </div>
+            </div>
+            <picture class="ads">
+                <img src="#" alt="Ads">
+            </picture>
+            <div class="notification">
+                <p class="notification__description">This site is not owned by “Bytedance” and is not affiliated in any way with “Bytedance”, nor is it an advertisement for the “TikTok” app or “Bytedance” company.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of privacy policy -->
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer__top">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link nav__link--dot" style="--background: #27AE60">Online Status</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">FAQ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Terms of Service</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__main">
+            <div class="container">
+                <ul class="social social--flex footer__social">
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <span class="social__icon" style="background-image: url(img/dist/sprite.svg#icon-github);"></span>
+                            <span class="social__text">Github</span>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <span class="social__icon" style="background-image: url(img/dist/sprite.svg#icon-youtube);"></span>
+                            <span class="social__text">Youtube</span>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <span class="social__icon" style="background-image: url(img/dist/sprite.svg#icon-reddit);"></span>
+                            <span class="social__text">Reddit</span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="footer__copyright">© 2022 DuckTik. All rights reserved</p>
+                <a href="#" class="google-play footer__btn">
+                    <img src="img/dist/google-play.svg" alt="Google Play">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
+    <!-- Scripts -->
+    <script src="js/vendor.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
