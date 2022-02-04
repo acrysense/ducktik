@@ -1,0 +1,28 @@
+.simplebar-track.simplebar-horizontal {
+    height: 5px;
+    background: #F2F2F2;
+    background-clip: content-box;
+    border-radius: 5px;
+}
+.simplebar-track.simplebar-horizontal .simplebar-scrollbar {
+    top: 0;
+    height: 5px;
+}
+.simplebar-scrollbar {
+    &::before {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+        background: #C4C4C4;
+        border-radius: 5px;
+    }
+}
+.simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
+    top: 0;
+    bottom: 0;
+}
+.simplebar-scrollbar.simplebar-visible::before {
+    opacity: 1;
+}

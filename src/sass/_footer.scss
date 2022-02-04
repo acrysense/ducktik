@@ -1,0 +1,33 @@
+.footer {
+    margin-top: 40px;
+    &__top {
+        padding: 19px 0;
+        border-top: 1px solid #E7E7E7;
+        border-bottom: 1px solid #E7E7E7;
+
+        @media screen and (max-width: 767px) {
+            padding: 16px 0;
+        }
+    }
+    &__main {
+        padding: 27px 0 77px;
+
+        @media screen and (max-width: 767px) {
+            padding: 27px 0 52px;
+        }
+    }
+    &__copyright {
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+        color: #4F4F4F;
+    }
+    &__btn {
+        margin: 24px auto 0;
+        
+        @media screen and (max-width: 767px) {
+            margin: 34px auto 0;
+        }
+    }
+}
